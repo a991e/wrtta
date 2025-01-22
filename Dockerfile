@@ -31,9 +31,9 @@ EXPOSE 4000
 
 ENV NODE_ENV=production
 ENV HOST="0.0.0.0"
-ENV SERVER_ORIGIN_URL="https://apple1123-wta.hf.space"
+ENV SERVER_ORIGIN_URL=""
 ENV MAX_REQUEST_PER_MINUTE=60
-ENV AUTH_CODE="123567"
+ENV AUTH_CODE=""
 ENV DATABASE_URL="file:../data/wewe-rss.db"
 ENV DATABASE_TYPE="sqlite"
 
@@ -51,10 +51,10 @@ EXPOSE 4000
 
 ENV NODE_ENV=production
 ENV HOST="0.0.0.0"
-ENV SERVER_ORIGIN_URL="https://apple1123-wta.hf.space"
+ENV SERVER_ORIGIN_URL=""
 ENV MAX_REQUEST_PER_MINUTE=60
-ENV AUTH_CODE="123567"
-ENV DATABASE_URL="mysql://root:dMZAwYhqsupkzInsqIOhvwmeojavaNrL@monorail.proxy.rlwy.net:52694/railway"
+ENV AUTH_CODE=""
+ENV DATABASE_URL=""
 
 RUN chmod +x ./docker-bootstrap.sh
 
